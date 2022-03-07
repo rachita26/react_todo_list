@@ -15,7 +15,7 @@ const Todo = () => {
         onChange={(e) => setCurrentTodo(e.target.value)}
         value={currentTodo}
       />
-      <btn onClick={addTodo}>ADD</btn>
+      <btn onClick={addTodo}>Add to list</btn>
       <br />
       {todoList.map((todo) => (
         <li>{todo}</li>
